@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfAppPraxis.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppPraxis"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <local:MainWindowViewModel/>
+    </Window.DataContext>
+    <Grid Margin="-1,0,1,0">
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="268,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="{Binding Firstname}"/>
+        <TextBox HorizontalAlignment="Left" Margin="268,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" Text="{Binding Lastname}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="328,258,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320" Text="{Binding Fullname, Mode=OneWay}" />
+        <Button Content="CLEAR" HorizontalAlignment="Left" Margin="450,202,0,0" VerticalAlignment="Top" Click="Button_Click" Command="{Binding ClearCommand}"/>
+    </Grid>
+</Window>
