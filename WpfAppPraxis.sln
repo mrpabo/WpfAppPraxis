@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ÜbungTaschenrechner.Utils"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ÜbungTaschenrechner.Resources", "ÜbungTaschenrechner.Resources\ÜbungTaschenrechner.Resources.csproj", "{FE71E485-7237-4259-8DFE-DE47E8626740}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KontaktDatenbank", "..\KontaktDatenbank\KontaktDatenbank.csproj", "{5D8A1BC1-8EC7-4DC8-820D-36130609FA8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,12 +59,16 @@ Global
 		{FE71E485-7237-4259-8DFE-DE47E8626740}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE71E485-7237-4259-8DFE-DE47E8626740}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE71E485-7237-4259-8DFE-DE47E8626740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8A1BC1-8EC7-4DC8-820D-36130609FA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8A1BC1-8EC7-4DC8-820D-36130609FA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8A1BC1-8EC7-4DC8-820D-36130609FA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8A1BC1-8EC7-4DC8-820D-36130609FA8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		RESX_NeutralResourcesLanguage = de-DE
 		SolutionGuid = {13CFB165-2226-481C-8DE1-D1B759656370}
+		RESX_NeutralResourcesLanguage = de-DE
 	EndGlobalSection
 EndGlobal
